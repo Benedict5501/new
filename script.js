@@ -1,50 +1,19 @@
-// alert(987)
-// console.log(987)
+// var drink ='fanta'
 
-// alert('femi')
-// console.log("idowu124'./.;'opo;o;..");
+// if(drink == 'sprite'){
+//     Show.innerHTML = "fanta"
+// } else {
+//     show.innerHTML = "sha buy anything for me"
+// }
 
-// Staring
-// "femi", 'ade', "1234", 'christiana'
+var food = "Amala"
 
-// Number
-// 123, 45, 98, -9, 0.65, .698, 76.765
-
-// Boolean
-// true, false
-// console.log(true);
-
-// Array
-// [1, "hello", true]
-
-
-// var earlystudent = "killerman"
-// console.log(earlystudent);
-
-// console.log(2=='2');
-// console.log(245=245);
-
- var firstNumber = prompt("enter the first number")
- var secondNumber = prompt("enter the second number")
- var answer = Number(firstNumber) + Number(secondNumber)
- console.log(answer);
-
-// console.log('emma' + 'john');
-// console.log(7%4);
-// console.log(15+15);
-// console.log(20-5);
-// console.log(2/6);
-// console.log(2*5);
-// console.log(2**9);
-
-// var firstNumber = prompt('enter the first number')
-// console.log(firstNumber ** 10);
-// var secondNumber = prompt('enter the second number')
-// var answer = firstNumber ** secondNumber
-// console.log(answer);
-
-
-
-
-
-
+if (food == "Amala") {
+    show.innerHTML = "Buy abula"
+} else if(food == "Eba" ) {
+show.innerHTML = "Buy ill/egusi"
+} else if(food == "Iyan") {
+    show.innerHTML = "Buy efo riro/egusi"
+} else {
+    show.innerHTML= "Buy me bread and beans with chilled fanta"
+}
